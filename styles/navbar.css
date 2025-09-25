@@ -1,0 +1,47 @@
+header {
+  background-color: var(--primary-background);
+  border-bottom: 1px solid var(--border);
+  /* position: sticky; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  /* padding: 12px 120px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+a.nav-item {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--text-dark-secondary);
+  margin-right: 36px;
+}
+
+.profile img {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+}
+
+@media only screen and (width >= 320px) and (width <= 720px) {
+  .navbar {
+    height: 74px;
+    width: 100%;
+    padding: 0 24px;
+  }
+
+  .navbar img {
+    width: 144px;
+  }
+}

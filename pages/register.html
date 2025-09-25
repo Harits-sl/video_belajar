@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Video Belajar | Register</title>
+
+    <link
+      rel="stylesheet"
+      href="../styles/index.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/register.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- START NAVBAR -->
+      <nav class="navbar container">
+        <a href="../index.html">
+          <img
+            class="logo"
+            src="../assets/images/logo.png"
+            alt="logo"
+          />
+        </a>
+        <div class="nav-list">
+          <!-- <a href="../index.html">
+            <img
+              class="logo"
+              src="../assets/images/logo.png"
+              alt="logo"
+            />
+          </a> -->
+        </div>
+      </nav>
+      <!-- END NAVBAR -->
+    </header>
+
+    <main>
+      <!-- START FORM REGISTER -->
+      <section>
+        <div class="card-register">
+          <form
+            action=""
+            id="FormRegister"
+          >
+            <div class="title-register">
+              <h3 class="text-dark-primary">Pendaftaran Akun</h3>
+              <p class="text-dark-secondary">Yuk, daftarkan akunmu sekarang juga!</p>
+            </div>
+            <div class="input">
+              <label
+                for="fullname"
+                class="text-dark-secondary"
+                >Nama Lengkap <span class="text-error-default">*</span></label
+              >
+              <input
+                type="text"
+                name="fullname"
+                id="fullname"
+                required
+              />
+            </div>
+            <div class="input">
+              <label
+                for="email"
+                class="text-dark-secondary"
+                >E-mail <span class="text-error-default">*</span></label
+              >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+              />
+            </div>
+            <div class="input">
+              <label
+                for="telphone"
+                class="text-dark-secondary"
+                >No. Hp <span class="text-error-default">*</span></label
+              >
+              <div class="input-telphone">
+                <div class="code-tel">
+                  <div class="flag-wrapper">
+                    <img
+                      src="../assets/images/Indonesia_icon.png"
+                      alt="indonesia"
+                      width="24px"
+                      height="24px"
+                    />
+                  </div>
+                  <select
+                    name="tel"
+                    id=""
+                    class="select-code"
+                  >
+                    <option value="ID">+62</option>
+                  </select>
+                </div>
+                <input
+                  type="tel"
+                  name="telphone"
+                  id="telphone"
+                  style="margin-bottom: 0"
+                  required
+                />
+              </div>
+            </div>
+            <div class="input">
+              <label
+                for="password"
+                class="text-dark-secondary"
+                >Kata Sandi <span class="text-error-default">*</span></label
+              >
+              <input
+                type="password"
+                name="password"
+                id="password"
+                required
+              />
+            </div>
+            <div class="input">
+              <label
+                for="confirm-password"
+                class="text-dark-secondary"
+                >Konfirmasi Kata Sandi <span class="text-error-default">*</span></label
+              >
+              <input
+                type="confirm-password"
+                name="confirm-password"
+                id="confirm-password"
+                required
+              />
+            </div>
+            <a
+              href="#"
+              class="forget-pasword text-dark-secondary"
+              ><span>Lupa Password?</span></a
+            >
+            <button
+              type="submit"
+              class="btn-register main-primary-background text-light-primary"
+            >
+              Daftar
+            </button>
+            <a href="./login.html">
+              <button
+                type="button"
+                class="btn-register main-primary-background-100 text-main-primary"
+              >
+                Masuk
+              </button>
+            </a>
+            <div class="divider"><span style="margin: 0 8px">atau</span></div>
+            <button
+              type="button"
+              class="btn-register-google main-primary-background-100 text-main-primary"
+            >
+              <img
+                src="../assets/images/google_icon.png"
+                alt="icon google"
+                width="15"
+              />
+              Masuk dengan Google
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- END FORM REGISTER -->
+    </main>
+  </body>
+</html>

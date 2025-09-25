@@ -1,0 +1,33 @@
+.hero {
+  height: 400px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/images/hero_img.jpg);
+  background-size: 100% 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 64px;
+  border-radius: 10px;
+}
+
+.text-hero {
+  text-align: center;
+  margin: 0 140px 24px 140px;
+}
+
+.title-hero {
+  line-height: 110.00000000000001%;
+}
+
+.desc-hero {
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  margin-top: 12px;
+}
+
+.btn-hero {
+  padding: 10px 26px;
+  border-radius: 10px;
+  border: none;
+}

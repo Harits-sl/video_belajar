@@ -1,0 +1,78 @@
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 32px;
+}
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+}
+h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+h6 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.container {
+  margin: 0 120px;
+}
+
+.main-primary-background {
+  background-color: var(--primary);
+}
+.main-primary-background-400 {
+  background-color: var(--primary-400);
+}
+.main-primary-background-300 {
+  background-color: var(--primary-300);
+}
+.main-primary-background-200 {
+  background-color: var(--primary-200);
+}
+.main-primary-background-100 {
+  background-color: var(--primary-100);
+}
+
+.text-main-primary {
+  color: var(--primary);
+}
+
+.text-dark-primary {
+  color: var(--text-dark-primary);
+}
+.text-dark-secondary {
+  color: var(--text-dark-secondary);
+}
+.text-dark-disabled {
+  color: var(--text-dark-disabled);
+}
+
+.text-light-primary {
+  color: var(--text-light-primary);
+}
+.text-light-secondary {
+  color: var(--text-light-secondary);
+}
+.text-light-disabled {
+  color: var(--text-light-disabled);
+}
+
+.text-error-default {
+  color: var(--error-default);
+}
+
+@media only screen and (width >= 320px) and (width <= 720px) {
+  .container {
+    margin: 0;
+  }
+}

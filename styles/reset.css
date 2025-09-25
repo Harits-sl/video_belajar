@@ -1,0 +1,89 @@
+/* tidak ada font weight 500, 600 */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap'); */
+
+:root {
+  --primary: #3ecf4c;
+  --primary-400: #6be26b;
+  --primary-300: #94f08b;
+  --primary-200: #c0fab4;
+  --primary-100: #e2fcd9cc;
+  --secondary: #ffbd3a;
+  --secondary-400: #ffd26b;
+  --secondary-300: #ffdf88;
+  --secondary-200: #ffecb0;
+  --secondary-100: #fff7d7cc;
+  --tertiary: #f64920;
+  --tertiary-400: #f98256;
+  --tertiary-300: #fca578;
+  --tertiary-200: #fecaa5;
+  --tertiary-100: #fee8d2cc;
+  --text-dark-primary: #222325;
+  --text-dark-secondary: #333333ad;
+  --text-dark-disabled: #3a354161;
+  --text-light-primary: #ffffff;
+  --text-light-secondary: #c1c2c4;
+  --text-light-disabled: #9d9ea1;
+  --primary-background: #ffffff;
+  --base-background: #f4f5fa;
+  --secondary-background: #f9fafc;
+  --border: #3a35411f;
+  --info-pressed: #044aa2;
+  --info-hover: #0663c2;
+  --info-default: #0980e2;
+  --info-background: #ebf9fe;
+  --success-pressed: #1c9675;
+  --success-hover: #28b380;
+  --success-default: #38d189;
+  --success-background: #e0fddf;
+  --warning-pressed: #b5a40d;
+  --warning-hover: #d8c613;
+  --warning-default: #fce91b;
+  --warning-background: #fcf8ca;
+  --error-pressed: #b72315;
+  --error-hover: #db3d1f;
+  --error-default: #ff5c2b;
+  --error-background: #fce3d1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../assets/fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../assets/fonts/Lato-Medium.ttf') format('ttf');
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../assets/fonts/Lato-Semibold.ttf') format('ttf');
+  font-weight: 600; /* SemiBold weight */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../assets/fonts/Lato-Bold.ttf') format('ttf');
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #fffdf3;
+  font-family: 'Lato', sans-serif;
+}

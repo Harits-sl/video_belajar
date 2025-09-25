@@ -1,0 +1,156 @@
+.card-register {
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 20px;
+}
+
+.card-register form {
+  width: 518px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-background);
+  padding: 36px;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+}
+
+.title-register {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.title-register p {
+  margin-top: 10px;
+}
+
+.input label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.input input {
+  /* width: 518px; */
+  width: 100%;
+  margin-bottom: 16px;
+  border: 1px solid #f1f1f1;
+  border-radius: 6px;
+  height: 48px;
+  padding: 4px 10px;
+  color: #222325;
+}
+
+.input-telphone {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.code-tel {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  margin-right: 24px;
+  flex-basis: 45%;
+}
+
+.flag-wrapper {
+  display: flex;
+  width: 44px;
+  padding: 12px 10px;
+  background-color: var(--base-background);
+}
+
+.flag-wrapper img {
+  margin: auto;
+}
+
+.select-code {
+  width: 100%;
+  border: none;
+  padding: 4px 10px;
+  color: var(--text-dark-primary);
+}
+
+.forget-pasword {
+  margin-left: auto;
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.btn-register {
+  height: 42px;
+  width: 100%;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.divider::before,
+.divider::after {
+  flex: 1;
+  content: '';
+  padding: 1px;
+  background-color: var(--border);
+}
+
+.btn-register-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 700;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.btn-register-google img {
+  margin-right: 8px;
+}
+
+@media only screen and (width >= 320px) and (width <= 720px) {
+  /* main,
+  section {
+    height: 20%;
+  } */
+
+  main {
+    font-size: 14px;
+  }
+
+  .card-register {
+    padding: 28px 20px;
+  }
+
+  .card-register form {
+    padding: 20px;
+  }
+
+  .title-register h3 {
+    font-size: 24px;
+  }
+
+  .code-tel {
+    margin-right: 12px;
+  }
+}
+
+@media only screen and (width >= 320px) and (width <= 480px) {
+  .code-tel {
+    flex-basis: 100%;
+  }
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Video Belajar | Login</title>
+
+    <link
+      rel="stylesheet"
+      href="../styles/index.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/login.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- START NAVBAR -->
+      <nav class="navbar container">
+        <a href="../index.html">
+          <img
+            class="logo"
+            src="../assets/images/logo.png"
+            alt="logo"
+          />
+        </a>
+        <div class="nav-list">
+          <!-- <a href="../index.html">
+            <img
+              class="logo"
+              src="../assets/images/logo.png"
+              alt="logo"
+            />
+          </a> -->
+        </div>
+      </nav>
+      <!-- END NAVBAR -->
+    </header>
+
+    <main>
+      <!-- START FORM LOGIN -->
+      <section>
+        <div class="card-login">
+          <form
+            action=""
+            id="FormLogin"
+          >
+            <div class="title-login">
+              <h3 class="text-dark-primary">Masuk Ke Akun</h3>
+              <p class="text-dark-secondary">Yuk, lanjutin belajarmu di videobelajar</p>
+            </div>
+            <div class="input">
+              <label
+                for="email"
+                class="text-dark-secondary"
+                >E-mail <span class="text-error-default">*</span></label
+              >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+              />
+            </div>
+            <div class="input">
+              <label
+                for="password"
+                class="text-dark-secondary"
+                >Kata Sandi <span class="text-error-default">*</span></label
+              >
+              <input
+                type="password"
+                name="email"
+                id="password"
+                required
+              />
+            </div>
+            <a
+              href="#"
+              class="forget-pasword text-dark-secondary"
+              ><span>Lupa Password?</span></a
+            >
+            <button
+              type="submit"
+              class="btn-login main-primary-background text-light-primary"
+            >
+              Masuk
+            </button>
+            <a href="./register.html">
+              <button
+                type="button"
+                class="btn-login main-primary-background-100 text-main-primary"
+              >
+                Daftar
+              </button>
+            </a>
+            <div class="divider"><span style="margin: 0 8px">atau</span></div>
+            <button
+              type="button"
+              class="btn-login-google main-primary-background-100 text-main-primary"
+            >
+              <img
+                src="../assets/images/google_icon.png"
+                alt="icon google"
+                width="15"
+              />
+              Masuk dengan Google
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- END FORM LOGIN -->
+    </main>
+  </body>
+</html>
