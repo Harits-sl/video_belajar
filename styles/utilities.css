@@ -43,6 +43,10 @@ h6 {
   background-color: var(--primary-100);
 }
 
+.main-secondary-background {
+  background-color: var(--secondary);
+}
+
 .text-main-primary {
   color: var(--primary);
 }
