@@ -81,6 +81,21 @@
             </div>
             <div class="input">
               <label
+                for="sex"
+                class="text-dark-secondary"
+                >Jenis Kelamin <span class="text-error-default">*</span></label
+              >
+              <select
+                name="sex"
+                id="sex"
+                class="select-sex"
+              >
+                <option value="wanita">Wanita</option>
+                <option value="laki-laki">Laki-Laki</option>
+              </select>
+            </div>
+            <div class="input">
+              <label
                 for="telphone"
                 class="text-dark-secondary"
                 >No. Hp <span class="text-error-default">*</span></label
@@ -118,12 +133,18 @@
                 class="text-dark-secondary"
                 >Kata Sandi <span class="text-error-default">*</span></label
               >
-              <input
-                type="password"
-                name="password"
-                id="password"
-                required
-              />
+              <div class="input-password">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  required
+                />
+                <img
+                  src="../assets/images/password_off_icon.png"
+                  alt=""
+                />
+              </div>
             </div>
             <div class="input">
               <label
@@ -131,12 +152,18 @@
                 class="text-dark-secondary"
                 >Konfirmasi Kata Sandi <span class="text-error-default">*</span></label
               >
-              <input
-                type="confirm-password"
-                name="confirm-password"
-                id="confirm-password"
-                required
-              />
+              <div class="input-password">
+                <input
+                  type="password"
+                  name="confirm-password"
+                  id="confirm-password"
+                  required
+                />
+                <img
+                  src="../assets/images/password_off_icon.png"
+                  alt=""
+                />
+              </div>
             </div>
             <a
               href="#"

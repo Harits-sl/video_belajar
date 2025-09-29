@@ -44,6 +44,26 @@
   color: #222325;
 }
 
+.input-password {
+  position: relative;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.input-password input {
+  margin-bottom: 0;
+}
+
+.input-password img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
 .forget-pasword {
   margin-left: auto;
   text-decoration: none;

@@ -34,7 +34,11 @@ a.nav-item {
   border-radius: 10px;
 }
 
-@media only screen and (width >= 320px) and (width <= 720px) {
+.hamburger {
+  display: none;
+}
+
+@media only screen and (width <= 768px) {
   .navbar {
     height: 74px;
     width: 100%;
@@ -43,5 +47,13 @@ a.nav-item {
 
   .navbar img {
     width: 144px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-list {
+    display: none;
   }
 }
