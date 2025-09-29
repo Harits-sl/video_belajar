@@ -34,6 +34,7 @@
   padding: 10px 26px;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
 
 /* collection and category */
@@ -90,6 +91,10 @@
   grid-template-columns: auto auto auto;
   column-gap: 24px;
   row-gap: 32px;
+}
+
+#learning a {
+  text-decoration: none;
 }
 
 .card-learning {
@@ -220,6 +225,7 @@
   padding: 10px 26px;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
 
 /* FOOTER */
